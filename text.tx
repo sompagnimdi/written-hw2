@@ -1,0 +1,67 @@
+## What are all the JavaScript Data Types?
+
+Null
+
+Under
+
+Boolean
+
+Number
+
+Biglnt
+
+String
+
+Symbol
+
+
+## What is the Difference Between Const Let and Var? Consider Scope ... Give an example
+ Var is a function-scoped while Const and Let are block-scoped. 
+ Var variable can be reassign while Let and Const cannot
+ Var are declared using the Var key words
+ Const are declared using the Const key words
+ Let are declared using the Let key words
+
+## Pass By Value vs Pass By Reference? Why would you say a String is pass by value/ or a value type? Why is an object a reference type?
+In pass-by value in JavaScript, a copy of the original variable is created, so any changes made to the copied variable do not affect the original variable.
+In pass-by reference in JavaScript, we pass the reference of the actual parameter. 
+No copy is created in the memory.
+
+### Why would you say a String is pass by value/ or a value type?
+A String copy the reference to the object but not the object itself.
+
+### Why is an object a reference type?
+
+Because object is an instance of a class and reference (variable) points out to the object created in the heap area.
+
+
+## What do Map , Filter and Reduce do? Do they mutate the array you call them on?
+
+They each take a function and a list of elements, and then return the result of applying the function to each element in the list. Yes they do.
+
+## What are all the Falsy Values in JavaScript? Why do you think this is important to know?
+
+Undefine, 
+null, 
+NaN, 
+0, 
+" " or empty String, 
+false. 
+This information is really important to know.
+
+## What are Async and Await?
+
+The async and await keywords enable asynchronous, promise-based behavior to be written in a cleaner style, avoiding the need to explicitly configure promise chains.
+ Async functions may also be defined as expressions.
+
+## What is an async function?
+
+It simply allows us to write promises based code as if it was synchronous and it checks that we are not breaking the execution thread.
+It operates asynchronously via the event-loop. 
+Async functions will always return a value
+
+## What are try and catch?
+
+A catch -block contains statements that specify what to do if an exception is thrown in the try -block. 
+If any statement within the try -block (or in a function called from within the try -block) throws an exception, control is immediately shifted to the catch -block.
+
